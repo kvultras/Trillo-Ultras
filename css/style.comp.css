@@ -311,11 +311,16 @@ body {
       .overview__heading {
         text-align: center;
         font-size: 1.7rem; } }
+    @media screen and (max-width: 31.25em) {
+      .overview__heading {
+        letter-spacing: 0;
+        padding: 1rem 1.5rem; } }
     @media screen and (max-width: 23.75em) {
       .overview__heading {
         font-size: 1.5rem;
-        padding: 1rem 1.5rem;
-        text-align: center; } }
+        padding: 0.5rem 1rem;
+        text-align: center;
+        letter-spacing: 0; } }
   .overview__stars {
     margin-right: auto;
     display: flex; }
@@ -347,7 +352,8 @@ body {
     justify-content: center; }
     @media screen and (max-width: 37.5em) {
       .overview__rating {
-        padding: 0 1.5rem; } }
+        padding: 0 1.5rem;
+        margin-left: 1.5rem; } }
     @media screen and (max-width: 23.75em) {
       .overview__rating {
         margin-left: 1rem; } }
