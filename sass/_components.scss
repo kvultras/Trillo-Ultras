@@ -306,7 +306,7 @@
 
         @media screen and (max-width:$bp-medium) {
             flex-direction: column;
-            
+            flex-basis: 50px;
         }
     }
 

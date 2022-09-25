@@ -334,7 +334,8 @@ body {
     vertical-align: center; }
     @media screen and (max-width: 37.5em) {
       .overview__location {
-        flex-direction: column; } }
+        flex-direction: column;
+        flex-basis: 50px; } }
   .overview__icon-location {
     margin-right: .5rem; }
     @media screen and (max-width: 37.5em) {
